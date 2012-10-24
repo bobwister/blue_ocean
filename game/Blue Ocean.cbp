@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Blue Ocean" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Blue Ocean" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Program Files\CodeBlocks\MinGW\lib\SDL_ttf.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Blue Ocean" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\Program Files\CodeBlocks\SDL-1.2.14\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="..\..\..\..\..\..\Program Files\CodeBlocks\SDL-1.2.14\lib\SDL_image.lib" />
+			<Add library="..\..\..\..\..\..\Program Files\CodeBlocks\MinGW\lib\libfmodex.a" />
+			<Add library="C:\Program Files\CodeBlocks\MinGW\include\string.h" />
+			<Add directory="C:\Program Files\CodeBlocks\SDL-1.2.14\lib" />
+		</Linker>
+		<Unit filename="SDL.h" />
+		<Unit filename="SDL_image.h" />
+		<Unit filename="SDL_ttf.h" />
+		<Unit filename="audio.cpp" />
+		<Unit filename="audio.h" />
+		<Unit filename="background.cpp" />
+		<Unit filename="background.h" />
+		<Unit filename="bubble.cpp" />
+		<Unit filename="bubble.h" />
+		<Unit filename="constante.h" />
+		<Unit filename="dolphin.cpp" />
+		<Unit filename="dolphin.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="fmod.h" />
+		<Unit filename="hud.cpp" />
+		<Unit filename="hud.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="stdio.h" />
+		<Unit filename="stdlib.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

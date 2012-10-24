@@ -1,0 +1,20 @@
+The pattern files in /media/scripts are used to set easily the pattern of bubbles.
+There must be one value per line.
+
+/// 1 - Note ///
+
+The first line indicates the value "note" of the pattern. 
+"Note" must be equal to 1, 2, 3 or 4, depending on the maximum velocity of the pattern.
+If the fastest rythm in the pattern is a quarter beat, then note should worth 4.
+If the pattern only goes on the beast, then the value is 1...etc.
+
+Indeed the bubbles are all separated by 100 pixels divided by the value that you give to "Note".
+
+/// 2 - Offset ///
+
+The second value represents the offset of the first bubble of the pattern on the X axis.
+
+/// 3 - Y coordinates ///
+
+The following values are the different positions on the Y axis for each bubbles.
+The value Y=-1 means that the bubble is invisible (i.e. there is no bubble at this position).

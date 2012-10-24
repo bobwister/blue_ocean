@@ -1,0 +1,5 @@
+pattern 1: marimba0 -> 9
+
+pattern 2: marimba10->19
+
+pattern 3: marimba20->43

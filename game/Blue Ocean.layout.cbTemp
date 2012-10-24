@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="SDL.h" open="1" top="0" tabpos="14">
+		<Cursor position="2396" topLine="29" />
+	</File>
+	<File name="audio.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="982" topLine="95" />
+	</File>
+	<File name="audio.h" open="1" top="0" tabpos="12">
+		<Cursor position="909" topLine="0" />
+	</File>
+	<File name="background.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="408" topLine="0" />
+	</File>
+	<File name="background.h" open="0" top="0" tabpos="4">
+		<Cursor position="478" topLine="0" />
+	</File>
+	<File name="bubble.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="2577" topLine="51" />
+	</File>
+	<File name="bubble.h" open="1" top="0" tabpos="5">
+		<Cursor position="1514" topLine="0" />
+	</File>
+	<File name="constante.h" open="1" top="0" tabpos="9">
+		<Cursor position="372" topLine="0" />
+	</File>
+	<File name="dolphin.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="1538" topLine="50" />
+	</File>
+	<File name="dolphin.h" open="1" top="0" tabpos="11">
+		<Cursor position="1560" topLine="12" />
+	</File>
+	<File name="hud.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="314" topLine="51" />
+	</File>
+	<File name="hud.h" open="1" top="0" tabpos="7">
+		<Cursor position="495" topLine="11" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="8624" topLine="281" />
+	</File>
+	<File name="sprite.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1797" topLine="60" />
+	</File>
+	<File name="sprite.h" open="1" top="1" tabpos="2">
+		<Cursor position="56" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
